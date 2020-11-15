@@ -1,0 +1,888 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+*{
+  margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+  vertical-align: baseline;
+  color: #333;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 300;
+  text-align: center;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  text-decoration: none;
+}
+body.bullmet-navidad {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  min-height: 100vh;
+  background-color: #fcf8ed;
+}
+h1, h2{
+  font-size: 4em;
+  margin: 20px 0px;
+  color: white;
+  font-family: 'Raleway', sans-serif;
+  text-align: center;
+}
+h2{
+  font-size: 3em;
+}
+h3{
+  font-size: 1.1em;
+  margin: 10px 0px; 
+  color: white;
+  font-family: 'Raleway', sans-serif;
+  text-align: left;
+}
+p{
+  font-size: 1em;
+  text-align: left;
+  padding:10px;
+  line-height: 1.5;
+}
+a {
+  color: #175872;
+}
+button{
+  border: none;
+  width: auto;
+  overflow: visible;
+  background: transparent;
+  color: inherit;
+  font: inherit;
+  line-height: normal;
+  -webkit-font-smoothing: inherit;
+  -moz-osx-font-smoothing: inherit;
+  -webkit-appearance: none;
+  -webkit-transition: all 300ms;
+  -o-transition: all 300ms;
+  transition: all 300ms;
+  cursor: pointer;
+  font-family: 'Raleway', sans-serif;
+  color:#175872;
+  -webkit-transform: scale(0.9);
+      -ms-transform: scale(0.9);
+          transform: scale(0.9);
+    border: 1px solid white;
+    padding: 10px 30px;
+    margin: 20px 0px;
+    font-size: 1.3em;
+}
+button:hover{
+  -webkit-transform:scale(1.1);
+      -ms-transform:scale(1.1);
+          transform:scale(1.1);
+}
+button:focus, a:focus{
+  outline: none;
+}
+img {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -o-user-select: none;
+  -ms-user-select: none;
+      user-select: none;
+  }
+main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+}
+section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  margin: 0 auto;
+}
+article {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 75%;
+  margin: 0 auto;
+}
+section.bullmet-navidad-header{
+  height: 75vh;
+  max-height: 600px;
+  min-height: 400px;
+  overflow: hidden;
+  position: relative;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+      -webkit-box-shadow: inset 0px 3px 199px -51px rgb(22 85 111);
+              box-shadow: inset 0px 3px 199px -51px rgb(22 85 111);
+      background-image: url("img/bullmet-navidad-bg.jpg");
+      background-size: cover;
+      background-position: center;
+}
+section.bullmet-navidad-header 
+img{
+  max-width: 500px;
+  z-index: -1;
+}
+section.bullmet-navidad-header 
+a{
+  color:white;
+  width: auto;
+  overflow: visible;
+  background: transparent;
+  line-height: normal;
+  -webkit-font-smoothing: inherit;
+  -moz-osx-font-smoothing: inherit;
+  -webkit-appearance: none;
+  -webkit-transition: all 300ms;
+  -o-transition: all 300ms;
+  transition: all 300ms;
+  cursor: pointer;
+  -webkit-transform: scale(0.9);
+      -ms-transform: scale(0.9);
+          transform: scale(0.9);
+  background-color: #175872;
+  font-family: 'Raleway', sans-serif;
+    padding: 10px 30px;
+    margin: 20px 0px;
+    font-size: 1.3em;
+}
+section.bullmet-navidad-header 
+a:hover{
+  -webkit-transform:scale(1);
+      -ms-transform:scale(1);
+          transform:scale(1);
+}
+section.bullmet-navidad-header
+.bullmet-navidad-header-secondary-img{
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  position: absolute;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 20px;
+}
+section.bullmet-navidad-header
+.bullmet-navidad-header-secondary-img
+h1{
+  color:  #175872;
+  font-weight: bold;
+  text-shadow: 0 0 10px #fcf8ed;
+}
+section.bullmet-navidad-header
+.bullmet-navidad-header-secondary-img
+h3{
+  color:  #175872;
+  padding: 10px;
+  background-color: #fcf8ed;
+  -webkit-transform: skew(-3deg);
+      -ms-transform: skew(-3deg);
+          transform: skew(-3deg);
+}
+
+section.bullmet-navidad-title{
+  margin: 20px 20px 0px 20px;
+}
+section.bullmet-navidad-title 
+h2{
+  font-size: 2em;
+  color: #175872;
+  font-weight: bold;
+  margin-bottom: 0;
+  text-align: center;
+}
+section.bullmet-navidad-products {
+  margin: 20px 20px 30px 20px;
+}
+section.bullmet-navidad-products
+h2{
+  font-size: 1.5em;
+  color: #175872;
+  font-weight: bold;
+  margin-bottom: 0;
+  text-align: center;
+  -webkit-box-shadow: 0px 25px 0px -23px #175872;
+          box-shadow: 0px 25px 0px -23px #175872;
+  padding: 10px;
+}
+section.bullmet-navidad-products 
+article.bullmet-navidad-products-container{
+  background-color: #1758723b;
+  background-image: url("img/bullmet-navidad-pattern.png");
+  width: 100%;
+  height: auto;
+  margin: 30px 0;
+  position: relative;
+}
+section.bullmet-navidad-products 
+article.bullmet-navidad-products-container 
+div.bullmet-navidad-products-wrapper{
+  width: 100%;
+  max-width: 1200px;
+  height: auto;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  padding: 20px 0px;
+  position: relative;
+  display: table;
+  border-collapse: separate;
+  border-spacing: 20px;
+}
+section.bullmet-navidad-products 
+article.bullmet-navidad-products-container 
+div.bullmet-navidad-products-wrapper
+a.bullmet-navidad-products-item{
+  display: table-cell;
+  margin: 15px;
+  border-radius: 20px;
+  padding: 30px;
+  width:20%;
+  background-color: white;
+  -webkit-box-shadow: 0px 0px 21px -13px rgb(23 88 114);
+          box-shadow: 0px 0px 21px -13px rgb(23 88 114);
+  -webkit-transition: -webkit-transform 300ms ease-in-out;
+  transition: -webkit-transform 300ms ease-in-out;
+  -o-transition: transform 300ms ease-in-out;
+  transition: transform 300ms ease-in-out;
+  transition: transform 300ms ease-in-out, -webkit-transform 300ms ease-in-out;
+  position: relative;
+}
+section.bullmet-navidad-products 
+article.bullmet-navidad-products-container 
+div.bullmet-navidad-products-wrapper
+a.bullmet-navidad-products-item
+img{
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width:100%;
+  -webkit-transition: -webkit-transform 300ms ease-in-out;
+  transition: -webkit-transform 300ms ease-in-out;
+  -o-transition: transform 300ms ease-in-out;
+  transition: transform 300ms ease-in-out;
+  transition: transform 300ms ease-in-out, -webkit-transform 300ms ease-in-out;
+}
+section.bullmet-navidad-products 
+article.bullmet-navidad-products-container 
+div.bullmet-navidad-products-wrapper
+a.bullmet-navidad-products-item
+h3{
+  color: #175872;
+  text-align: center;
+  z-index: 2;
+  -webkit-transition: -webkit-transform 300ms ease-in-out;
+  transition: -webkit-transform 300ms ease-in-out;
+  -o-transition: transform 300ms ease-in-out;
+  transition: transform 300ms ease-in-out;
+  transition: transform 300ms ease-in-out, -webkit-transform 300ms ease-in-out;
+}
+a.bullmet-navidad-products-item:hover {
+  -webkit-transform: scale(1.05);
+      -ms-transform: scale(1.05);
+          transform: scale(1.05);
+}
+a.bullmet-navidad-products-item:hover img{
+  -webkit-transform: scale(1.1) rotate(5deg);
+      -ms-transform: scale(1.1) rotate(5deg);
+          transform: scale(1.1) rotate(5deg);
+}
+a.bullmet-navidad-products-item:hover h3{
+  -webkit-transform: scale(1.1) translateY(5px);
+      -ms-transform: scale(1.1) translateY(5px);
+          transform: scale(1.1) translateY(5px);
+}
+a.bullmet-navidad-products-item-alt:hover img{
+  -webkit-transform: scale(1.1) translateY(-5px);
+      -ms-transform: scale(1.1) translateY(-5px);
+          transform: scale(1.1) translateY(-5px);
+}
+article.bullmet-navidad-products-container:before {
+  content: " ";
+  position: absolute;
+  display: block;
+  width: 100%;
+  left: 0;
+  height: 9px;
+  top: 0px;
+  background: url("img/bullmet-navidad-triangle.png") repeat-x;
+  -webkit-transform: rotate(180deg);
+      -ms-transform: rotate(180deg);
+          transform: rotate(180deg);
+  z-index: 99;
+}
+article.bullmet-navidad-products-container:after {
+  content: " ";
+  position: absolute;
+  display: block;
+  width: 100%;
+  left: 0;
+  height: 9px;
+  bottom: 0px;
+  background: url("img/bullmet-navidad-triangle.png") repeat-x;
+  z-index: 99;
+}
+section.bullmet-navidad-offers 
+article.bullmet-navidad-offers-container{
+  width: 100%;
+  height: auto;
+  margin: 30px 30px;
+  position: relative;
+}
+section.bullmet-navidad-offers
+article.bullmet-navidad-offers-container
+div.bullmet-navidad-offers-wrapper
+{
+  width: 100%;
+  max-width: 1200px;
+  height: auto;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  padding: 20px 0px;
+  position: relative;
+  display: table;
+  border-collapse: separate;
+  border-spacing: 20px;
+}
+
+section.bullmet-navidad-offers
+article.bullmet-navidad-offers-container
+div.bullmet-navidad-offers-wrapper
+a{
+  margin: 10px;
+  border: 3px solid #175872;
+  border-radius: 20px;
+  padding: 30px;
+  font-size: 1.3em;
+  width: 20%;
+  position: relative;
+  display: table-cell;
+  -webkit-transition: all 300ms ease-in-out;
+  -o-transition: all 300ms ease-in-out;
+  transition: all 300ms ease-in-out;
+}
+div.bullmet-navidad-offers-wrapper
+a:hover{
+  -webkit-transform: scale(1.1);
+      -ms-transform: scale(1.1);
+          transform: scale(1.1);
+  background-color: #175872;
+  color: white;
+  -webkit-box-shadow: 0px 0px 70px 25px rgb(235 210 149);
+          box-shadow: 0px 0px 70px 25px rgb(235 210 149);
+}
+div.bullmet-navidad-offers-wrapper a:before {
+  content: " ";
+  position: absolute;
+  display: block;
+  width: 45px;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+      -ms-transform: translateX(-50%);
+          transform: translateX(-50%);
+  height: 20px;
+  top: -20px;
+  background: url("img/bullmet-navidad-lazo.svg");
+  background-repeat: no-repeat;
+  z-index: 99;
+  -webkit-transition: all 300ms ease-in-out;
+  -o-transition: all 300ms ease-in-out;
+  transition: all 300ms ease-in-out;
+}
+div.bullmet-navidad-offers-wrapper:hover a:before {
+  content: " ";
+  opacity: 0;
+}
+section.bullmet-navidad-offers
+h2{
+  font-size: 1.5em;
+  color: #175872;
+  font-weight: bold;
+  margin-bottom: 0;
+  text-align: center;
+  -webkit-box-shadow: 0px 25px 0px -23px #175872;
+          box-shadow: 0px 25px 0px -23px #175872;
+  padding: 10px;
+}
+section.bullmet-navidad-offers
+article.bullmet-navidad-offers-container
+div.bullmet-navidad-offers-wrapper
+a.special{
+  margin: 10px;
+  border: none;
+  border-radius: 0px;
+  padding: 20px;
+  width: 20%;
+  position: relative;
+  display: table-cell;
+  -webkit-transition: all 300ms ease-in-out;
+  -o-transition: all 300ms ease-in-out;
+  transition: all 300ms ease-in-out;
+}
+div.bullmet-navidad-offers-wrapper
+a.special
+img{
+  width: 100%;
+}
+div.bullmet-navidad-offers-wrapper a.special:before {
+  content: " ";
+  opacity: 0;
+}
+div.bullmet-navidad-offers-wrapper
+a.special:hover{
+  -webkit-transform: scale(1.1);
+      -ms-transform: scale(1.1);
+          transform: scale(1.1);
+  background-color: transparent;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+section.bullmet-navidad-banner 
+article.bullmet-navidad-banner-container{
+  width: 100%;
+  height: auto;
+  margin: 30px 30px;
+  position: relative;
+  background-color: #f8e7b7;
+  height: auto;
+  min-height: 300px;
+  background-image: url("img/bullmet-navidad-godiva.png");
+  background-repeat: no-repeat;
+  background-position: 300px;
+  background-size: cover;
+}
+section.bullmet-navidad-banner
+article.bullmet-navidad-banner-container
+div.bullmet-navidad-banner-wrapper
+{
+  width: 100%;
+  max-width: 1200px;
+  height: auto;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  padding: 20px 0px;
+  position: relative;
+  margin: 30px;
+
+}
+section.bullmet-navidad-banner
+article.bullmet-navidad-banner-container
+div.bullmet-navidad-banner-wrapper
+div.bullmet-navidad-banner-item
+{
+  width: 100%;
+  max-width: 1200px;
+  height: auto;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  padding: 20px 0px;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+section.bullmet-navidad-banner
+article.bullmet-navidad-banner-container
+div.bullmet-navidad-banner-wrapper
+h1{
+  font-size: 3em;
+  color: #3c1f1e;
+  text-align: left;
+  text-shadow: 3px 1px 1px #f8e7b7;
+}
+section.bullmet-navidad-banner
+article.bullmet-navidad-banner-container
+div.bullmet-navidad-banner-wrapper
+h3{
+  color: black;
+  text-align: left;
+  text-shadow: 3px 1px 1px #f8e7b7;
+
+}
+section.bullmet-navidad-banner
+article.bullmet-navidad-banner-container
+div.bullmet-navidad-banner-wrapper
+a{
+  margin: 10px 0px;
+  padding: 10px;
+  background-color:#fb8c1c;
+  color:black;
+  position: relative;
+  -webkit-transition: all 300ms ease-in-out;
+  -o-transition: all 300ms ease-in-out;
+  transition: all 300ms ease-in-out;
+  font-weight: bold;
+}
+section.bullmet-navidad-banner
+article.bullmet-navidad-banner-container
+div.bullmet-navidad-banner-wrapper
+img{
+  max-width: 200px;
+}
+section.bullmet-navidad-banner
+article.bullmet-navidad-banner-container
+div.bullmet-navidad-banner-wrapper
+a:hover{
+  -webkit-transform: scale(1.1);
+      -ms-transform: scale(1.1);
+          transform: scale(1.1);
+}
+section.bullmet-navidad-bottom-text{
+  max-width: 1200px;
+  width: 100%;
+  margin-bottom: 50px;
+  padding: 0px 20px 20px 20px;
+}
+section.bullmet-navidad-bottom-text
+p{
+  text-align: left;
+  width: 100%;
+}
+section.bullmet-navidad-bottom-text
+span{
+  font-weight: bold;
+  color: #175872;
+  font-style: italic;
+}
+
+footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  margin: 0 auto;
+  background-color: #333;
+  padding: 50px 0px;
+}
+footer p{
+  color: white;
+  font-size: 0.8em;
+  padding: 0px;
+  margin: 0px;
+  text-align: center;
+  width: 75%;
+}
+footer img{
+  width: 120px;
+}
+.desktop{
+  display: -webkit-box !important;
+  display: -ms-flexbox !important;
+  display: flex !important;
+}
+.mobile{
+  display: none !important;
+}
+@media (min-width:1000px) {
+  section.bullmet-navidad-banner 
+  article.bullmet-navidad-banner-container{
+    background-position: 90%;
+    background-size: 50%;
+  }
+}
+
+@media (max-width: 1000px) {
+  section.bullmet-navidad-offers
+  article.bullmet-navidad-offers-container
+  div.bullmet-navidad-offers-wrapper
+  a{
+    width: 25%;
+  }
+}
+
+@media (max-width: 800px) {
+
+  section.bullmet-navidad-header img{
+    position: absolute;
+    max-width: 300px;
+  }
+  section.bullmet-navidad-header .bullmet-navidad-header-secondary-img{
+    position: absolute;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin: 20px;
+  }
+  section.bullmet-navidad-header .bullmet-navidad-header-secondary-img h1{
+    text-align: center;
+    font-size: 3em;
+  }
+  section.bullmet-navidad-header .bullmet-navidad-header-secondary-img h3{
+    text-align: center;
+    width: 100%;
+  }
+  section.bullmet-navidad-products 
+  article.bullmet-navidad-products-container 
+  div.bullmet-navidad-products-wrapper{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  section.bullmet-navidad-products 
+  article.bullmet-navidad-products-container 
+  div.bullmet-navidad-products-wrapper
+  a.bullmet-navidad-products-item{
+    width:33%;
+    min-height: 270px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+
+  section.bullmet-navidad-offers
+  article.bullmet-navidad-offers-container
+  div.bullmet-navidad-offers-wrapper{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  section.bullmet-navidad-offers
+  article.bullmet-navidad-offers-container
+  div.bullmet-navidad-offers-wrapper
+  a{
+    width: 44%;
+    margin-bottom: 40px;
+  }
+  section.bullmet-navidad-offers
+  article.bullmet-navidad-offers-container
+  div.bullmet-navidad-offers-wrapper
+  a.special{
+    width: 44%;
+    margin-bottom: 40px;
+  }
+  section.bullmet-navidad-banner 
+  article.bullmet-navidad-banner-container{
+    background-position: 200px;
+    background-size: 100%;
+  }
+  .desktop{
+    display: none !important;
+  }
+  .mobile{
+    display: -webkit-box !important;
+    display: -ms-flexbox !important;
+    display: flex !important;
+  }
+}
+
+@media (max-width: 500px) {
+  section.bullmet-navidad-header img{
+    position: absolute;
+    top: 0;
+  }
+  section.bullmet-navidad-title h2{
+    font-size: 1.5em;
+  }
+  section.bullmet-navidad-title img{
+    width: 70%;
+  }
+  section.bullmet-navidad-products 
+  article.bullmet-navidad-products-container 
+  div.bullmet-navidad-products-wrapper
+  a.bullmet-navidad-products-item{
+    width:100%;
+  }
+  section.bullmet-navidad-offers
+  article.bullmet-navidad-offers-container
+  div.bullmet-navidad-offers-wrapper
+  a{
+    width: 100%;
+  }
+  section.bullmet-navidad-offers
+  article.bullmet-navidad-offers-container
+  div.bullmet-navidad-offers-wrapper
+  a.special{
+    width: 100%;
+  }
+  section.bullmet-navidad-banner 
+  article.bullmet-navidad-banner-container{
+    background-position: 100px;
+    background-size: 200%;
+  }
+
+}
+.animation-start-app {
+  -webkit-animation: start-app 1s forwards;
+          animation: start-app 1s forwards;
+}
+@-webkit-keyframes start-app {
+  0%   { opacity: 0; }
+  100% { opacity: 1; }
+}
+@keyframes start-app {
+  0%   { opacity: 0; }
+  100% { opacity: 1; }
+}
+.animation-showleft {
+  position: absolute;
+  -webkit-animation: showleft 2s forwards;
+          animation: showleft 2s forwards;
+          -webkit-transform:translateX(-50%);
+              -ms-transform:translateX(-50%);
+                  transform:translateX(-50%);
+}
+@-webkit-keyframes showleft {
+  0%   { opacity: 0; left:0; }
+  50%   { opacity: 0; left:25%; }
+  100% { opacity: 1; left:33%; }
+}
+@keyframes showleft {
+  0%   { opacity: 0; left:0; }
+  50%   { opacity: 0; left:25%; }
+  100% { opacity: 1; left:33%; }
+}
+
+.animation-showBottom {
+  position: absolute;
+  -webkit-animation: showBottom 2s forwards;
+          animation: showBottom 2s forwards;
+          left:66%;
+          -webkit-transform:translateX(-50%) rotate(5deg);
+              -ms-transform:translateX(-50%) rotate(5deg);
+                  transform:translateX(-50%) rotate(5deg);
+}
+@-webkit-keyframes showBottom {
+  0%   { opacity: 0; top:0; }
+  50%   { opacity: 0; top:200px; }
+  100% { opacity: 1; top:-100px;}
+}
+@keyframes showBottom {
+  0%   { opacity: 0; top:0; }
+  50%   { opacity: 0; top:200px; }
+  100% { opacity: 1; top:-100px;}
+}
+@-webkit-keyframes showBottomMobile {
+  0%   { opacity: 0; }
+  50%   { opacity: 0; }
+  100% { opacity: 1;  }
+}
+@keyframes showBottomMobile {
+  0%   { opacity: 0; }
+  50%   { opacity: 0; }
+  100% { opacity: 1;  }
+}
+
+.animation-shadow {
+    -webkit-animation: shadow 2s infinite;
+            animation: shadow 2s infinite;
+
+}
+@-webkit-keyframes shadow {
+  0%   { -webkit-box-shadow: inset 0px 0px 199px -31px rgb(22 85 111); box-shadow: inset 0px 0px 199px -31px rgb(22 85 111); }
+  50%   { -webkit-box-shadow: inset 0px 0px 0px -31px rgb(22 85 111); box-shadow: inset 0px 0px 0px -31px rgb(22 85 111);}
+  100% { -webkit-box-shadow: inset 0px 0px 199px -31px rgb(22 85 111); box-shadow: inset 0px 0px 199px -31px rgb(22 85 111);  }
+}
+@keyframes shadow {
+  0%   { -webkit-box-shadow: inset 0px 0px 199px -31px rgb(22 85 111); box-shadow: inset 0px 0px 199px -31px rgb(22 85 111); }
+  50%   { -webkit-box-shadow: inset 0px 0px 0px -31px rgb(22 85 111); box-shadow: inset 0px 0px 0px -31px rgb(22 85 111);}
+  100% { -webkit-box-shadow: inset 0px 0px 199px -31px rgb(22 85 111); box-shadow: inset 0px 0px 199px -31px rgb(22 85 111);  }
+}
