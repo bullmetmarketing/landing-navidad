@@ -165,8 +165,10 @@ section.bullmet-navidad-header{
       -webkit-box-shadow: inset 0px 3px 199px -51px rgb(22 85 111);
               box-shadow: inset 0px 3px 199px -51px rgb(22 85 111);
       background-image: url("img/bullmet-navidad-bg.jpg");
-      background-size: cover;
+      background-size: 80%;
+      background-repeat: no-repeat;
       background-position: center;
+      background-color: #c2e4e6;
 }
 section.bullmet-navidad-header 
 img{
@@ -214,17 +216,19 @@ section.bullmet-navidad-header
   -webkit-box-align: start;
       -ms-flex-align: start;
           align-items: flex-start;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+          align-items: flex-start;
   margin: 20px;
+  width: 100%;
+  max-width: 1200px;
+  padding: 50px;
 }
 section.bullmet-navidad-header
 .bullmet-navidad-header-secondary-img
 h1{
   color:  #175872;
-  font-weight: bold;
   text-shadow: 0 0 10px #fcf8ed;
+  text-align: left;
+  font-size: 4em;
 }
 section.bullmet-navidad-header
 .bullmet-navidad-header-secondary-img
@@ -674,6 +678,17 @@ footer img{
 
 @media (max-width: 800px) {
 
+  section.bullmet-navidad-header {
+    background-image: url('img/bullmet-navidad-bg-mobile.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #c2e4e6;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+  }
+
   section.bullmet-navidad-header img{
     position: absolute;
     max-width: 300px;
@@ -684,6 +699,9 @@ footer img{
         -ms-flex-align: center;
             align-items: center;
     margin: 20px;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
   }
   section.bullmet-navidad-header .bullmet-navidad-header-secondary-img h1{
     text-align: center;
@@ -777,6 +795,15 @@ footer img{
   section.bullmet-navidad-header img{
     position: absolute;
     top: 0;
+  }
+  section.bullmet-navidad-header .bullmet-navidad-header-secondary-img{
+    margin: 0px;
+    padding: 80px 0px;
+  }
+  section.bullmet-navidad-header
+  .bullmet-navidad-header-secondary-img
+  h1{
+    font-size: 2.5em;
   }
   section.bullmet-navidad-title h2{
     font-size: 1.5em;
@@ -876,12 +903,12 @@ footer img{
 
 }
 @-webkit-keyframes shadow {
-  0%   { -webkit-box-shadow: inset 0px 0px 199px -31px rgb(22 85 111); box-shadow: inset 0px 0px 199px -31px rgb(22 85 111); }
-  50%   { -webkit-box-shadow: inset 0px 0px 0px -31px rgb(22 85 111); box-shadow: inset 0px 0px 0px -31px rgb(22 85 111);}
-  100% { -webkit-box-shadow: inset 0px 0px 199px -31px rgb(22 85 111); box-shadow: inset 0px 0px 199px -31px rgb(22 85 111);  }
+  0%   { -webkit-box-shadow: inset 0px 0px 199px -31px #fcf8ed; box-shadow: inset 0px 0px 199px -31px #fcf8ed; }
+  50%   { -webkit-box-shadow: inset 0px 0px 0px -31px #fcf8ed; box-shadow: inset 0px 0px 0px -31px #fcf8ed;}
+  100% { -webkit-box-shadow: inset 0px 0px 199px -31px #fcf8ed; box-shadow: inset 0px 0px 199px -31px #fcf8ed;  }
 }
 @keyframes shadow {
-  0%   { -webkit-box-shadow: inset 0px 0px 199px -31px rgb(22 85 111); box-shadow: inset 0px 0px 199px -31px rgb(22 85 111); }
-  50%   { -webkit-box-shadow: inset 0px 0px 0px -31px rgb(22 85 111); box-shadow: inset 0px 0px 0px -31px rgb(22 85 111);}
-  100% { -webkit-box-shadow: inset 0px 0px 199px -31px rgb(22 85 111); box-shadow: inset 0px 0px 199px -31px rgb(22 85 111);  }
+  0%   { -webkit-box-shadow: inset 0px 0px 199px -31px #fcf8ed; box-shadow: inset 0px 0px 199px -31px #fcf8ed; }
+  50%   { -webkit-box-shadow: inset 0px 0px 0px -31px #fcf8ed; box-shadow: inset 0px 0px 0px -31px #fcf8ed;}
+  100% { -webkit-box-shadow: inset 0px 0px 199px -31px #fcf8ed; box-shadow: inset 0px 0px 199px -31px #fcf8ed;  }
 }
